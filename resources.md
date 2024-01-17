@@ -23,6 +23,14 @@ We need to build simple systems if we want to build good systems. Benefits of si
 
 Make interfaces easy to use correctly and hard to use incorrectly: Choose good names, be consistent, progressive disclosure, documentation.
 
+[Edge Case Poisoning, Hillel Wayne (2020)](https://buttondown.email/hillelwayne/archive/edge-case-poisoning/)
+
+Designing a system to handle the edge cases of a client may punish other clients. Simply because now the system is over complicated for others.
+
+[The Artist and The Innovator, Ash Maurya (2018)](https://blog.leanstack.com/the-artist-and-the-innovator/)
+
+Customers don’t care about your solution but their problems. The challenge today isn’t building a product but uncovering the right product to build.
+
 
 ## DATA SCIENCE
 
@@ -103,3 +111,13 @@ For true ownership: mandate + responsibility + knowledge
 2. You cannot use that mandate effectively over something you don’t understand. You need knowledge.
 3. You gain experience from running something and learn from the mistakes when things go wrong. You don’t use that knowledge to optimize it if it’s not your problem. You need to be held responsible.
 
+## UNDERSTANDING
+
+[Up and Down Ladder of Abstraction, Bret Victor (2011)](http://worrydream.com/#!2/LadderOfAbstraction)
+
+How can we design systems when we don't know what we're doing? The most exciting engineering challenges lie on the boundary of theory and the unknown. When designing at this boundary, the challenge lies not in constructing the system, but in understanding it. In the absence of theory, we must develop an intuition to guide our decisions. The design process is thus one of exploration and discovery. The most powerful way to gain insight into a system is by moving between levels of abstraction. Many designers do this instinctively. But it's easy to get stuck on the ground, experiencing concrete systems with no higher-level view. It's also easy to get stuck in the clouds, working entirely with abstract equations or aggregate statistics. This interactive essay presents the ladder of abstraction, a technique for thinking explicitly about these levels, so a designer can move among them consciously and confidently.
+
+
+[Visualization, modeling, and surprises, John D. Cook (2013)](https://www.johndcook.com/blog/2013/02/07/visualization-modeling-and-surprises/)
+
+Visualization can show you something in your data that you didn’t expect. But some things are hard to see, and visualization is a slow, human process. Modeling might tell you something slightly unexpected, but your choice of model restricts what you’re going to find once you’ve fit it. So you iterate. Visualization suggests a model, and then you use your model to factor out some feature of the data. Then you visualize again.
