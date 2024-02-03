@@ -111,6 +111,22 @@ For true ownership: mandate + responsibility + knowledge
 2. You cannot use that mandate effectively over something you don’t understand. You need knowledge.
 3. You gain experience from running something and learn from the mistakes when things go wrong. You don’t use that knowledge to optimize it if it’s not your problem. You need to be held responsible.
 
+[The death of Agile, Allen Holub (2015)](https://www.youtube.com/watch?v=vSnCeJEka_s)
+
+You don't get a good result by following a specific process.
+We need flexibiltiy and abilitiy to change and many corporations are incapable of doing. Agility is about eliminating friction. 
+The entire organization should be agile, not teams. If you change the process, you also need to change the organization.
+For agility to work you need to put proper culture in place, it has to come from top-to-down. It is CEO's job to manage the culture of the organization so if the CEO does not understand what the agility is about.
+Trust is everything is agile, trusting people to do their job.
+The product is developed with the customers who are talking with you day-to-day basis and product owners are not customers. (Instead of negiotate) collaborate with customers.
+
+[Scaling agile has never worked ... and never will, Geoff Watts (2021)](https://www.youtube.com/watch?v=YhUY5olYNB4)
+
+The mechanical metaphor that organizations have traditionally been built on focused  on taking inputs and efficiently turning them into nice packaged repeatable predictable outputs through lots of structure is not the right metaphor if we require effectiveness instead of efficiency. The organic metaphor for agile where we focus on principles, values, rituals and collaboration.
+Agile is a solution to a problem but not the only solution to all problems. If you kept on focusing on effectivenss over efficiency we will never take advantage of our innovation, get profit. So it is a balance.
+
+If we are not getting right results we need to change people's actions. But the actions are based on our beliefs and our beliefs are formed and reinforced by our experiences. We miss this part because they are not as visible as results and actions. The environment is complex and unpredictable so the focus of leadership should not be standardizing and correcting actions but mentoring and coaching people to create experiencers that will lead to coherent beliefs so that actions can be autonomous and coherent. 
+
 ## UNDERSTANDING
 
 [Up and Down Ladder of Abstraction, Bret Victor (2011)](http://worrydream.com/#!2/LadderOfAbstraction)
