@@ -87,6 +87,13 @@ Abstraction is used to reduce complexity. Indirection is used to reduce coupling
 Abstraction: the process of separating the interface to some functionality from the underlying implementation in such a way that the implementation can be changed without changing the way that piece of code is used.
 Abstraction’s simplicity goal competes with how indirection complicates things.
 
+[Build Abstractions Not Illusions, Gregor Hohpe (2023)](https://www.youtube.com/watch?v=aWZFRk-w3ng)
+
+We sometimes confuse abstraction and composition. Naming something by the pieces that it is made out of is not a useful abstraction. A useful abstraction should bring a new vocabulary that shields the user from the underlying complexity. Composition is useful as well but it needs you to familiar with the lower layer vocabulary. When we hide the essential details we create a dangerous *illusion*. What is essential (and what is not) is a judgement call, it depends on the context, somebody (the architect?) must decide what should we hide and expose. 
+
+Just providing a system (for example a database) with sane defaults is not useful to the user. The platform team should bring a new language (closer the the business language) for the user.
+
+
 ## TEAM ORGANIZATION
 
 [Team Interaction Modeling with Team Topologies (2023)](https://teamtopologies.com/key-concepts-content/team-interaction-modeling-with-team-topologies)
