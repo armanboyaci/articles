@@ -20,15 +20,29 @@ The variance of the residuals is constant and the residuals are uncorrelated. No
 
 > What’s the normal distribution? Why do we care about it?
 
-> How do we check if a variable follows the normal distribution?
+It is a bell shaped probabiltiy distribution and it is characterized by two parameters the mean ($\mu$) and the variance ($\sigma^2$).
+The importance of this distribution is mainly due to the *Central Limit Theorem*. 
+This theorem states that the mean of samples of **any** random variable converges to a normal distribution as the number of samples increases.
 
-> What if we want to build a model for predicting prices? Are prices distributed normally? Do we need to do any pre-processing for prices?
+> (revisit) How do we check if a variable follows the normal distribution?
 
-> What methods for solving linear regression do you know?
+Graphical methods: histogram, qq-plot. Frequentist tests: Kolmogorov-Smirnov, Shapiro-Wilk, Pearson's chi-squared, Bayesian tests: KL-divergence
+
+> (revisit) What if we want to build a model for predicting prices? Are prices distributed normally? Do we need to do any pre-processing for prices?
+
+The normal distribution may not be appropriate model to use: non-constant varience and fat tails. 
+
+### Solving
+> (revisit) What methods for solving linear regression do you know?
+
+(1) Normal equations, (2) Gradient descent, (3) Adam's method, (4) SVD, (5) maximum likelihood estimation ?? 
+[Solving linear regression](https://www.kdnuggets.com/2020/09/solving-linear-regression.html)
 
 > What is gradient descent? How does it work?
 
 > What is SGD  —  stochastic gradient descent? What’s the difference with the usual gradient descent?
+
+> (incremental calculation)
 
 ### Evaluation
 > Which metrics for evaluating regression models do you know?
