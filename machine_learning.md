@@ -4,7 +4,11 @@ The list of questions are from: https://github.com/alexeygrigorev/data-science-i
 
 > What is supervised machine learning?
 
+We have a machine learning task and the dataset contains desired outputs. If it is a classification problem then we have the 'correct' labels or if it is a regression problem we have the 'correct' values.
+
 > What is regression? What is linear regression?
+
+Regression is a supervised machine learning task. The difference between classification and regression is that in the former we try to predict a categorical variable and in the latter a continuous variable. Linear regression is solving a regression problem with a linear model which is predicting the outcome using a linear function of explanatory variables.
 
 > What are the different types of regression models?
 
