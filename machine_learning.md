@@ -10,9 +10,13 @@ We have a machine learning task and the dataset contains desired outputs. If it 
 
 Regression is a supervised machine learning task. The difference between classification and regression is that in the former we try to predict a categorical variable and in the latter a continuous variable. Linear regression is solving a regression problem with a linear model which is predicting the outcome using a linear function of explanatory variables.
 
-> What are the different types of regression models?
+> (revisit) What are the different types of regression models?
 
-> What are the main assumptions of linear regression?
+Linear, logistics (for binary values), ridge&lasso (for regularization), quantile (median response instead of mean)
+
+> (revisit) What are the main assumptions of linear regression?
+
+The variance of the residuals is constant and the residuals are uncorrelated. No measurement error.
 
 > What’s the normal distribution? Why do we care about it?
 
