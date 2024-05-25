@@ -32,17 +32,16 @@ Graphical methods: histogram, qq-plot. Frequentist tests: Kolmogorov-Smirnov, Sh
 
 The normal distribution may not be appropriate model to use: non-constant varience and fat tails. 
 
-### Solving
-> (revisit) What methods for solving linear regression do you know?
+### Solving Linear Regression
+> What methods for solving linear regression do you know?
 
-(1) Normal equations, (2) Gradient descent, (3) Adam's method, (4) SVD, (5) maximum likelihood estimation ?? 
-[Solving linear regression](https://www.kdnuggets.com/2020/09/solving-linear-regression.html)
+There are two main methods to solve linear regression: (1) least square method / normal equations, (2) gradient descent. 
 
-> What is gradient descent? How does it work?
+Normal equations can be derived from gemoetrical arguments (orthoganal projection) or from maximum likelihood estimation. For the simple case ($y = \beta x + \alpha + \epsilon$) the formula is $\hat{\beta} = \frac{(x-\bar{x})(y-\bar{y})}{(x-\bar{x})^2}$, $\hat{\alpha} = \bar{y} - \hat{\beta} \bar{x} $. SVD???
+
+In the gradient descent method, we iteratively calculate the parameters with the following formula: $\theta_{new} = \theta_{old} - \eta \nabla_{\theta} J(\theta_{old})$. Gradient descent will converge to a (local) minimum but if loss function is convex then it is not an issue since there is a single global minimum point. The downside is that we need to choose the step size $\eta$ which determines the convergence speed (if we choose a big step size value then the estimated parameter values would oscilate and never converge, reach to the optimum). We can also solve other loss functions, like for example we can add regularization term to the loss function. Another advantage is that we can learn the parameters incrementally instead of full batch. In many applications we could regularly receive new data, so we can just use this new data to update the parameters instead of full calculation. *Can we do this with normal equations as well?*
 
 > What is SGD  —  stochastic gradient descent? What’s the difference with the usual gradient descent?
-
-> (incremental calculation)
 
 ### Evaluation
 > Which metrics for evaluating regression models do you know?
