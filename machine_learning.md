@@ -46,9 +46,13 @@ In the gradient descent method, we iteratively calculate the parameters with the
 It is an approximation for the gradient descent method. In the gradient descent there is a summation term, we sum the gradients. Usually it is not a problem but for high-dimensional dataset it could be computationally expensive to do all the summation in every iteration. In stochastic gradient descent, the true gradient of is approximated by a gradient at a single sample.
 
 ### Evaluation
-> Which metrics for evaluating regression models do you know?
+> (revisit) Which metrics for evaluating regression models do you know?
 
-We can define the residuals as $y - \hat(y)$. We can calculate the residauls at each point, there are different ways to turn these residuals into a single number. Mean absolute error, mean squared error. In the r-squared metric, we compute the sum of squared errors of *the* benchmark (which is the straight line) and compare agaisnt the models squared error to assess how good the model is fitting to the data. 
+We can define the residual as $y - \hat{y}$ and calculate them at each point. There are different ways to turn these residuals into a error metric, we would like to assess the *deviation* from the true value and both overforecasting and underforecasting should be penalized. We have different options, we can take the absolute value or take the square. (What is the difference?)
+
+Finally we can turn all these error numbers calculated at each point to a single value. Here again we have option. The simplest option is to take the simple mean: mean absolute error, mean squared error. We can also calculate a weighted version: sum all the absolute errors and divide by the actuals. In this case the contribution of higher errors will be higher (compared to the simple mean, why?)
+
+In the r-squared metric, we compute the sum of squared errors of *the* benchmark (which is the straight line) and compare agaisnt the models squared error to assess how good the model is fitting to the data. 
 
 > (revisit) What is the bias-variance trade-off?
 
