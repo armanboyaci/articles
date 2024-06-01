@@ -74,6 +74,17 @@ For some models may have some hyperparameters to tune (e.g. k-neighours algorith
 
 > How do we choose K in K-fold cross-validation? What’s your favorite K?
 
+### Feature Selection
+> What is feature selection? Why do we need it?
+
+> Is feature selection important for linear models?
+
+> Which feature selection techniques do you know?
+
+> Can we use L1 regularization for feature selection?
+
+> Can we use L2 regularization for feature selection?
+
 ### Classification
 > What is classification? Which models would you use to solve a classification problem?
 
@@ -123,17 +134,6 @@ For some models may have some hyperparameters to tune (e.g. k-neighours algorith
 > How do we interpret weights in linear models?
 
 > If a weight for one variable is higher than for another  —  can we say that this variable is more important?
-
-### Feature Selection
-> What is feature selection? Why do we need it?
-
-> Is feature selection important for linear models?
-
-> Which feature selection techniques do you know?
-
-> Can we use L1 regularization for feature selection?
-
-> Can we use L2 regularization for feature selection?
 
 ### Clustering
 > What is unsupervised learning?
