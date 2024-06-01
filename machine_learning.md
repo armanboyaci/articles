@@ -60,7 +60,13 @@ We can always use a complex (flexible) model to have a better fit in the trainin
 
 > How to validate your models?
 
-> Why do we need to split our data into three parts: train, validation, and test?
+The objective of a machine learning task is to make predictions (for unseen data). We would like quantify the accuracy of the prediction of the model on *unseen* data. This is important because we would like to know how much we can rely on this model to achieve our business objectives.
+
+> (revisit) Why do we need to split our data into three parts: train, validation, and test?
+
+We have a machine learning task and some data. Why don't we use all the data that we have to train the model? We would like to *validate* our model by simulating the real use case of the model: predicting unseen data. So we spare some part of the dataset as test to validate our model. We use the rest of the dataset to train the model we *learn* from the training dataset. 
+
+For some models may have some hyperparameters to tune (e.g. k-neighours algorithm, $k$ is the number of neihgbours to look). We can dedicate a part of the training to tune the hyperparamters. Why we should not use the same dataset to tune the parameters and train the model? *"your evaluation results may not accurately reflect the model's performance on unseen data"* why? Fine-tuning on the same dataset increases the risk of overfitting, where the model learns to memorize the training data rather than capturing the underlying patterns. This can lead to poor performance on new data and biased evaluation results. 
 
 > Can you explain how cross-validation works?
 
