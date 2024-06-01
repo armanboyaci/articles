@@ -48,9 +48,15 @@ It is an approximation for the gradient descent method. In the gradient descent 
 ### Evaluation
 > Which metrics for evaluating regression models do you know?
 
-> What is the bias-variance trade-off?
+We can define the residuals as $y - \hat(y)$. We can calculate the residauls at each point, there are different ways to turn these residuals into a single number. Mean absolute error, mean squared error. In the r-squared metric, we compute the sum of squared errors of *the* benchmark (which is the straight line) and compare agaisnt the models squared error to assess how good the model is fitting to the data. 
+
+> (revisit) What is the bias-variance trade-off?
+
+Let's say we have a dataset on hand, with a flexible model model we can get a good fit (low bias) on that fixed dataset. But now consider all possible datasets that we may encounter, with a flexible model we will estimate completely different parameters (high variance) for each dataset. *(Why this is a problem?)*
 
 > What is overfitting?
+
+We can always use a complex (flexible) model to have a better fit in the training set. But then the error metrics could be worst in the unseen data.
 
 > How to validate your models?
 
