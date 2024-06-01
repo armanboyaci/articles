@@ -43,6 +43,8 @@ In the gradient descent method, we iteratively calculate the parameters with the
 
 > What is SGD  —  stochastic gradient descent? What’s the difference with the usual gradient descent?
 
+It is an approximation for the gradient descent method. In the gradient descent there is a summation term, we sum the gradients. Usually it is not a problem but for high-dimensional dataset it could be computationally expensive to do all the summation in every iteration. In stochastic gradient descent, the true gradient of is approximated by a gradient at a single sample.
+
 ### Evaluation
 > Which metrics for evaluating regression models do you know?
 
