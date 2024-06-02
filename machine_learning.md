@@ -72,11 +72,17 @@ We have a machine learning task and some data. Why don't we use all the data tha
 
 For some models may have some hyperparameters to tune (e.g. k-neighours algorithm, $k$ is the number of neihgbours to look). We can dedicate a part of the training to tune the hyperparamters. Why we should not use the same dataset to tune the parameters and train the model? *"your evaluation results may not accurately reflect the model's performance on unseen data"* why? Fine-tuning on the same dataset increases the risk of overfitting, where the model learns to memorize the training data rather than capturing the underlying patterns. This can lead to poor performance on new data and biased evaluation results. 
 
-> Can you explain how cross-validation works?
+> (revisit) Can you explain how cross-validation works?
+
+We use different portions of the data to test and train a model on different iterations. 
 
 > What is K-fold cross-validation?
 
+The dataset is partitioned into K equal sized "folds". We select one of the folds as test set and we use the rest as training set and assess the accuracy. We repeat this process and each iteration we select a different "fold" as testing data.
+
 > How do we choose K in K-fold cross-validation? What’s your favorite K?
+
+Higher the K we will have a better accuracy estimation, the extreme is called leave-one-cross-validation (where K equals the number of samples in the dataset). On the other increases K also increases the need for computational resources. We need to find a balance between resources and the quality of the accuracy estimation.
 
 ### Feature Selection
 > What is feature selection? Why do we need it?
@@ -88,28 +94,6 @@ For some models may have some hyperparameters to tune (e.g. k-neighours algorith
 > Can we use L1 regularization for feature selection?
 
 > Can we use L2 regularization for feature selection?
-
-### Classification
-> What is classification? Which models would you use to solve a classification problem?
-
-> What is logistic regression? When do we need to use it?
-
-> Is logistic regression a linear model? Why?
-
-> What is sigmoid? What does it do?
-
-> How do we evaluate classification models?
-
-> What do we do with categorical variables?
-
-> Why do we need one-hot encoding?
-
-> What is "curse of dimensionality"?
-
-### Multi-collinearity
-> What happens to our linear regression model if we have three columns in our data: x, y, z  —  and z is a sum of x and y?
-
-> What happens to our linear regression model if the column z in the data is a sum of columns x and y and some random noise?
 
 ### Regularization
 > What is regularization? Why do we need it?
@@ -132,12 +116,34 @@ For some models may have some hyperparameters to tune (e.g. k-neighours algorith
 
 > When do we need to perform feature normalization for linear models? When it’s okay not to do it?
 
+### Multi-collinearity
+> What happens to our linear regression model if we have three columns in our data: x, y, z  —  and z is a sum of x and y?
+
+> What happens to our linear regression model if the column z in the data is a sum of columns x and y and some random noise?
+
 ### Interpretation
 > What’s the interpretation of the bias term in linear models?
 
 > How do we interpret weights in linear models?
 
 > If a weight for one variable is higher than for another  —  can we say that this variable is more important?
+
+### Classification
+> What is classification? Which models would you use to solve a classification problem?
+
+> What is logistic regression? When do we need to use it?
+
+> Is logistic regression a linear model? Why?
+
+> What is sigmoid? What does it do?
+
+> How do we evaluate classification models?
+
+> What do we do with categorical variables?
+
+> Why do we need one-hot encoding?
+
+> What is "curse of dimensionality"?
 
 ### Clustering
 > What is unsupervised learning?
