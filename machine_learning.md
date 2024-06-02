@@ -87,9 +87,17 @@ Higher the K we will have a better accuracy estimation, the extreme is called le
 ### Feature Selection
 > What is feature selection? Why do we need it?
 
+Usually a model with more features is more complex (flexible) and there is a risk of overfitting. We find the most relevant features and get rid of the rest; this lighter model can generalize better to unseen data, improving its predictive performance. In addition, the lighter model will be easier to debug, faster to train.
+
 > Is feature selection important for linear models?
 
 > Which feature selection techniques do you know?
+
+1. Removing features with low variance
+2. Univariate feature selection: some statistical test? (e.g. f-test, pearson's correlation ...)
+3. Recursive feature elimination: the least important features are pruned from current set of features until the desired number of features to select is eventually reached.
+4. Feature selection using SelectFromModel
+5. Sequential Feature Selection (backward, forward)
 
 > Can we use L1 regularization for feature selection?
 
