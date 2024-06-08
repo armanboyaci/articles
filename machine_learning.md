@@ -106,21 +106,30 @@ Usually a model with more features is more complex (flexible) and there is a ris
 ### Regularization
 > What is regularization? Why do we need it?
 
-> Which regularization techniques do you know?
+Regularization is about controling the complexity of the model to avoid overfitting. We trade a decrease in the fittness in the training for an increase in generalizability.
 
-> What kind of regularization techniques are applicable to linear models?
+> Which regularization techniques do you know? What kind of regularization techniques are applicable to linear models? How does L2 regularization look like in a linear model?
 
-> How does L2 regularization look like in a linear model?
+The common trick that we use to add a penalizing term to the objective function that we try to minimize. In Lasso (resp. Ridge) the penalizing term is sum of absolute (resp. squared) of the coefficients.
 
 > How do we select the right regularization parameters?
 
+We use cross-validation.
+
 > What’s the effect of L2 regularization on the weights of a linear model?
+
+It is penalizing.
 
 > How L1 regularization looks like in a linear model?
 
 > What’s the difference between L2 and L1 regularization?
 
+The L1 regularization solution is sparse. L2 regularization doesn’t perform feature selection, since weights are only reduced to values near 0 instead of 0. L1 regularization has built-in feature selection. L1 regularization is robust to outliers, L2 regularization is not. 
+[Why is L2 preferred over L1 Regularization?](https://www.reddit.com/r/MachineLearning/comments/dgog2h/d_why_is_l2_preferred_over_l1_regularization/)
+
 > Can we have both L1 and L2 regularization components in a linear model?
+
+Elasticnet do that.
 
 > When do we need to perform feature normalization for linear models? When it’s okay not to do it?
 
