@@ -176,9 +176,19 @@ Elasticnet do that.
 ### Dimensionality Reduction
 > What is the curse of dimensionality? Why do we care about it?
 
-> Do you know any dimensionality reduction techniques?
+The more dimensions we add, the more sparse the data becomes, the more samples an algorithm needs to see before it is able to generate acceptable predictions.
 
-> What’s singular value decomposition? How is it typically used for machine learning?
+> (revisit) Do you know any dimensionality reduction techniques?
+
+1. Feature Selection
+2. Feature Projection: PCA, LDA, autoencoder, NNMF, t-SNE, UMAP
+
+> (revisit) What’s singular value decomposition? How is it typically used for machine learning?
+
+The singular value decomposition is a factorization of a real or complex matrix into a rotation, followed by a rescaling followed by another rotation. It generalizes the eigendecomposition of a square normal matrix with an orthonormal eigenbasis to any matrix.
+
+It can be used for dimensionality reduction, data compression, noise reduction, feature extraction, and latent factor analysis.
+
 
 ### Time Series
 > What is a time series?
