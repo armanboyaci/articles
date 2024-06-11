@@ -134,9 +134,13 @@ Elasticnet do that.
 > When do we need to perform feature normalization for linear models? When it’s okay not to do it?
 
 ### Multi-collinearity
-> What happens to our linear regression model if we have three columns in our data: x, y, z  —  and z is a sum of x and y?
+> (revisit) What happens to our linear regression model if we have three columns in our data: x, y, z  —  and z is a sum of x and y?
 
-> What happens to our linear regression model if the column z in the data is a sum of columns x and y and some random noise?
+It is called perfect multicollinearity and in this case the input matrix $X$ will contain linearly dependent columns corresponding to x and y. And so X is not invertable, we are not going to able to solve the "normal equations". *But what about lasso or ridge regession?*
+
+> (revisit) What happens to our linear regression model if the column z in the data is a sum of columns x and y and some random noise?
+
+In this case we have nearly exact linear relationship. We don't need to drop any variable. Since including collinear variables does not reduce the predictive power or reliability of the model as a whole and does not reduce the accuracy of coefficient estimates.
 
 ### Interpretation
 > What’s the interpretation of the bias term in linear models?
