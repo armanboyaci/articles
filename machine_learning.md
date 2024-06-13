@@ -143,11 +143,27 @@ It is called perfect multicollinearity and in this case the input matrix $X$ wil
 In this case we have nearly exact linear relationship. We don't need to drop any variable. Since including collinear variables does not reduce the predictive power or reliability of the model as a whole and does not reduce the accuracy of coefficient estimates.
 
 ### Interpretation
-> What’s the interpretation of the bias term in linear models?
+> (revisit) What’s the interpretation of the bias term in linear models?
 
-> How do we interpret weights in linear models?
+The bias term (intercept) is the value of the output $y$ when all the input values $x$s are zero. Sometimes to have a better interpretation we can change the variables. Let's say we fitted a regression line for world record for mile run. Assume it is $y = 1007 - 0.393x$. $x=0$ means the year 0 which is meaningless. Instead we can rewrite the same formula as $y = 241 - 0.393(x-1950)$. Let $x'=x-1950$ then we have $y = 241 - 0.393x'$ which is more meaningful.
 
-> If a weight for one variable is higher than for another  —  can we say that this variable is more important?
+> (revisit) How do we interpret weights in linear models?
+
+The safest interpretation of a regression is as a comparison. Let's say we have the following model: earnings = −26.0 + 0.6 * height + 10.6 * male + error. It might seem natural to report that the estimated effect of height is $600 and the estimated effect of sex is $10 600. But the correct interpretation is (1) the average difference in earnings, comparing two people of the same sex but one inch different in height, is $600, (b) two people with the same height but different sex, the man’s earnings will be, on average, $10 600 more than the woman’s.
+
+> (revisit) How to interpret a log-log model?
+
+Elasticity tells the percentage change in dependent variable with respect to 1% change in the independent variable while holding all other variables constant.
+
+> (revisit) If a weight for one variable is higher than for another  —  can we say that this variable is more important?
+
+(CHATGPT) Not necessarily. While the weight assigned to a variable in linear regression does indicate its influence on the predicted outcome, it doesn't always directly translate to importance.
+
+Variables with higher weights have a stronger linear relationship with the outcome variable within the confines of the model. However, the importance of a variable can also depend on other factors such as the scale and range of the variables, multicollinearity (correlation between predictor variables), and the specific context of the problem being analyzed. 
+
+Moreover, the interpretation of importance can vary based on the goals of the analysis. Sometimes, variables with lower weights might be crucial for the model's performance or for understanding certain nuances in the data, even if they don't have as strong a linear relationship with the outcome.
+
+Therefore, while weight magnitude can provide insights, it's essential to interpret it alongside other factors and domain knowledge before concluding a variable's importance.
 
 ### Classification
 > What is classification? Which models would you use to solve a classification problem?
