@@ -166,7 +166,11 @@ Moreover, the interpretation of importance can vary based on the goals of the an
 Therefore, while weight magnitude can provide insights, it's essential to interpret it alongside other factors and domain knowledge before concluding a variable's importance.
 
 ### Classification
-> What is classification? Which models would you use to solve a classification problem?
+> (revisit) What is classification? Which models would you use to solve a classification problem?
+
+Classification is a supervised machine learning tasks. For each sample, we are given a class label and we would like to predict the class labal of a unknown class label. There are many methods to solve a classification problem: nearest neighbor, logistic regression, decision trees, neural networks, gaussian process.
+
+> What is probability calibration?
 
 > What is logistic regression? When do we need to use it?
 
@@ -174,13 +178,16 @@ Therefore, while weight magnitude can provide insights, it's essential to interp
 
 > What is sigmoid? What does it do?
 
+$\frac{1}{1 + \exp^{ax + b}}$. It can be used to project the output space of a linear model to numbers between 0 and 1.
+
 > How do we evaluate classification models?
 
-> What do we do with categorical variables?
+Confusion matrix. Recall & precision.
 
-> Why do we need one-hot encoding?
+> How to handle imbalance in the class labels?
 
-> What is "curse of dimensionality"?
+> Multiclass 
+
 
 ### Clustering
 > What is unsupervised learning?
@@ -208,6 +215,20 @@ The more dimensions we add, the more sparse the data becomes, the more samples a
 The singular value decomposition is a factorization of a real or complex matrix into a rotation, followed by a rescaling followed by another rotation. It generalizes the eigendecomposition of a square normal matrix with an orthonormal eigenbasis to any matrix.
 
 It can be used for dimensionality reduction, data compression, noise reduction, feature extraction, and latent factor analysis.
+
+### Preprocessing
+
+> What do we do with categorical variables?
+
+> Why do we need one-hot encoding?
+
+> What is "curse of dimensionality"?
+
+> Why scaling features might be useful?
+
+> What are the benefits to scale the target in regression problems?
+
+> What are the different ways of scaling?
 
 
 ### Time Series
