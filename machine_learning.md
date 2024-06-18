@@ -170,11 +170,17 @@ Therefore, while weight magnitude can provide insights, it's essential to interp
 
 Classification is a supervised machine learning tasks. For each sample, we are given a class label and we would like to predict the class labal of a unknown class label. There are many methods to solve a classification problem: nearest neighbor, logistic regression, decision trees, neural networks, gaussian process.
 
-> What is probability calibration?
-
 > What is logistic regression? When do we need to use it?
 
+It can be used to predict binary variables.
+
+> How we can use a binary classifier in the case of multiple classes? 
+
+One vs One, One vs All
+
 > Is logistic regression a linear model? Why?
+
+It can be seen as a generalized linear model. The GLM generalizes linear regression by allowing the linear model to be related to the response variable via a link function and by allowing the magnitude of the variance of each measurement to be a function of its predicted value. In logistic regression the link function is logit (log-odds): $ln(\frac{\mu}{1 - \mu})$.
 
 > What is sigmoid? What does it do?
 
@@ -186,8 +192,7 @@ Confusion matrix. Recall & precision.
 
 > How to handle imbalance in the class labels?
 
-> Multiclass 
-
+> What is probability calibration?
 
 ### Clustering
 > What is unsupervised learning?
@@ -216,7 +221,7 @@ The singular value decomposition is a factorization of a real or complex matrix 
 
 It can be used for dimensionality reduction, data compression, noise reduction, feature extraction, and latent factor analysis.
 
-### Preprocessing
+### Preprocessing
 
 > What do we do with categorical variables?
 
