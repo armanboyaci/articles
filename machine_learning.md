@@ -186,11 +186,21 @@ It can be seen as a generalized linear model. The GLM generalizes linear regress
 
 $\frac{1}{1 + \exp^{ax + b}}$. It can be used to project the output space of a linear model to numbers between 0 and 1.
 
-> How do we evaluate classification models?
+> (revisit) How do we evaluate classification models?
 
-Confusion matrix. Recall & precision.
+Confusion matrix has two dimensions: actual and predicted. In the binary confusion matrix case, we have positives and negatives. We can then calculate the accuracy as $\frac{TP+TN}{P+N}$. But if the classess are imbalanced the accuracy may be misleading. We can calculate true positive rate (recall) $\frac{TP}{P}$ and positive predictive value (precisiton) $\frac{TP}{PP}$. We can combine these two numbers to get a single metric. Aritmetic mean (Balanced Accuracy), Harmonic mean (F-measure), Geometric mean (Fowlkes–Mallows index). 
 
-> How to handle imbalance in the class labels?
+*How about multi class case?*
+
+### Imbalance
+
+> (revisit) Why imbalance in the classes is problematic?
+
+If we have few positives relative to negatives, the training model will spend most of its time on negative examples and not learn enough from positive ones.
+
+> (revisit) How to handle imbalance in the class labels?
+
+If you have an imbalanced data set, we can first check the accuracy on the true distribution. If the model works well and generalizes that is good. If not, we undersample and oversample to make the distribution of classes balanced.
 
 > What is probability calibration?
 
