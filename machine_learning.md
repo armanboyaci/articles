@@ -207,13 +207,23 @@ If you have an imbalanced data set, we can first check the accuracy on the true 
 ### Clustering
 > What is unsupervised learning?
 
+It is a machine learning task, we are given an unlabeled data and we would like to discover patterns in the data without any explicit guidance. Three types of unsupervised learning tasks are clustering, association and dimensionality reduction. 
+
 > What is clustering? When do we need it?
+
+The goal of clustering is to group together similar data points into clusters, maximize intra-cluster similarity and minimize inter-cluster similarity. It can be helpful to explore data we don't have labels or categories. It can be also used for anomaliy detection, we can outliers in the data that don't fit well into any cluster.
 
 > Do you know how K-means works?
 
+It is an iterative algorithm. We initialize cluster centroids randomly. We assign each data point to the cluster whose centroid is the nearest. We update the centroids by taking the mean of the data points in each cluster. We repeat those steps until the assignments of data points to clusters stabilize. 
+
 > How to select K for K-means?
 
-> What are the other clustering algorithms do you know?
+The number of clusters may be chosen using our domain knowledge. We can try to choose with cross-validation.
+
+> (revisit) What are the other clustering algorithms do you know?
+
+There are some limitiations of k-means algorithm. For instance it assumes equivariance. We can use gaussian mixtures. Hierarchical clustering is a general family of clustering algorithms that build nested clusters by merging or splitting them successively. The DBSCAN algorithm views clusters as areas of high density separated by areas of low density. Due to this rather generic view, clusters found by DBSCAN can be any shape, as opposed to k-means which assumes that clusters are convex shaped. 
 
 ### Dimensionality Reduction
 > What is the curse of dimensionality? Why do we care about it?
