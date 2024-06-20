@@ -245,16 +245,19 @@ It can be used for dimensionality reduction, data compression, noise reduction, 
 
 > What do we do with categorical variables?
 
-> Why do we need one-hot encoding?
-
-> What is "curse of dimensionality"?
+We need to convert them to numerical variables since machine learning algorithms require numerical input. If we use label encoding we can artificially introduce ordinal relationship. We can introduce a new binary column for each category. If the number of categories is large the final input will be very high dimensional. We can use a pre-trained embedding to reduce the dimension size.
 
 > Why scaling features might be useful?
 
-> What are the benefits to scale the target in regression problems?
+Convergence if we use gradient-based algorithm.  Without scaling, the gradients can differ significantly in magnitude, leading to slow and unstable convergence.
+Distance-based algorithms (e.g. Knn, Kmeans), if not scaled, variables with larger ranges can dominate the distance calculations. 
+Regularization, If features are on different scales, regularization may penalize some coefficients more than others, leading to biased results. Scaling ensures that regularization is applied uniformly across all features.
+When features are scaled, the model coefficients can be more easily compared to assess the relative importance of each feature. This is particularly useful in linear models where coefficients indicate the weight or influence of each feature on the target variable.
 
 > What are the different ways of scaling?
 
+min-max scaling: $x' = \frac{x-min}{max-min}$ scales the data to a fixed range $\[0, 1\]$. We can use standardization: $z = \frac{x-\mu}{\sigma}$ if the data has a gaussian distribution. But if there are outliers in the data we can use robust scaling instead $x' = \frac{x-median}{IQR}$.  
+ 
 
 ### Time Series
 > What is a time series?
