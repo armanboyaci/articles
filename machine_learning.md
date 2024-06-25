@@ -262,9 +262,15 @@ min-max scaling: $x' = \frac{x-min}{max-min}$ scales the data to a fixed range $
 ### Time Series
 > What is a time series?
 
+A dataset may be considered as a time series if it is keyed by time. Most commonly equally spaced points. It is a sequence because the data objects can be ordered by this key. 
+
 > How is time series different from the usual regression problem?
 
-> Which models do you know for solving time series problems?
+While time series models (e.g. ARIMA) assumes that the data is ordered, in the regression model data points are assumed to be independent (the dataset is treated as a set not an ordered list).
+
+> (revisit )Which models do you know for solving time series problems?
+
+Autoregressive models (e.g. MA, ARIMA); non-linear autoregressive conditional heteroskedasticity (ARCH) models (e.g. GARCH). State-space models (e.g.  hidden-markov model). Kalman filter?
 
 > If there’s a trend in our series, how we can remove it? And why would we want to do it?
 
