@@ -268,14 +268,20 @@ A dataset may be considered as a time series if it is keyed by time. Most common
 
 While time series models (e.g. ARIMA) assumes that the data is ordered, in the regression model data points are assumed to be independent (the dataset is treated as a set not an ordered list).
 
-> (revisit )Which models do you know for solving time series problems?
+> (revisit) Which models do you know for solving time series problems?
 
 Autoregressive models (e.g. MA, ARIMA); non-linear autoregressive conditional heteroskedasticity (ARCH) models (e.g. GARCH). State-space models (e.g.  hidden-markov model). Kalman filter?
 
-> If there’s a trend in our series, how we can remove it? And why would we want to do it?
+> (revisit) If there’s a trend in our series, how we can remove it? And why would we want to do it?
+
+There are different methods to achieve this: (1) differencing or moving average, (2) detrending by regression, (3) filtering. Time series models like ARIMA uses differencing. State space model: observational equation: $y_t = \mu_t + \epsilon_t$, state equations: $\mu_t = \mu_{t-1} + \eta_t, \beta_t = \beta_{t-1} + \xi_t$. We would want to do detrending to have a more accurate forecast. 
 
 > You have a series with only one variable “y” measured at time t. How do predict “y” at time t+1? Which approaches would you use?
 
+Naive forecast, moving-average, exponential smoothing, ARIMA
+
 > You have a series with a variable “y” and a set of features. How do you predict “y” at t+1? Which approaches would you use?
+
+Now you use regression methods as well.
 
 > What are the problems with using trees for solving time series problems?
