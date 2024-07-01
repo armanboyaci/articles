@@ -133,7 +133,7 @@ For example, for n = 9, you should return 3 since the lists are: [2, 3, 4], [4, 
 
 > 28. What is the bias-variance tradeoff? How is it expressed using an equation?
 
-
+> 29. How many cards would you expect to draw from a standard deck before seeing the first ace?
 
 
 
