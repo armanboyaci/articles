@@ -135,6 +135,19 @@ For example, for n = 9, you should return 3 since the lists are: [2, 3, 4], [4, 
 
 > 29. How many cards would you expect to draw from a standard deck before seeing the first ace?
 
+> 30. Assume you are given the below table for spending activity by product type.
+> Write a query to calculate the cumulative spend for each product over time in chronological order.
+
+| column_name | type |
+|---|---|
+| order_id   | integer |
+| user_id    | integer |
+| product_id | string |
+| spend      | float  |
+| date       | datetime |
+
+> 31. Write a program to calculate correlation (without any libraries except for math) for two lists X and Y.
+
 
 
 
