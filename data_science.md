@@ -148,7 +148,12 @@ For example, for n = 9, you should return 3 since the lists are: [2, 3, 4], [4, 
 
 > 31. Write a program to calculate correlation (without any libraries except for math) for two lists X and Y.
 
+> 32. Say you are modeling the yearly revenue of new listings. What kinds of features would you use?
+> What data processing steps need to be taken, and what kind of model would run?
 
+
+> 33. Assume you want to test whether a new feature increases signups to the site.
+> How would you run this experiment? What statistical test(s) would you use?
 
 
 
