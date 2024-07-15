@@ -132,7 +132,11 @@ The product is developed with the customers who are talking with you day-to-day 
 The mechanical metaphor that organizations have traditionally been built on focused  on taking inputs and efficiently turning them into nice packaged repeatable predictable outputs through lots of structure is not the right metaphor if we require effectiveness instead of efficiency. The organic metaphor for agile where we focus on principles, values, rituals and collaboration.
 Agile is a solution to a problem but not the only solution to all problems. If you kept on focusing on effectivenss over efficiency we will never take advantage of our innovation, get profit. So it is a balance.
 
-If we are not getting right results we need to change people's actions. But the actions are based on our beliefs and our beliefs are formed and reinforced by our experiences. We miss this part because they are not as visible as results and actions. The environment is complex and unpredictable so the focus of leadership should not be standardizing and correcting actions but mentoring and coaching people to create experiencers that will lead to coherent beliefs so that actions can be autonomous and coherent. 
+If we are not getting right results we need to change people's actions. But the actions are based on our beliefs and our beliefs are formed and reinforced by our experiences. We miss this part because they are not as visible as results and actions. The environment is complex and unpredictable so the focus of leadership should not be standardizing and correcting actions but mentoring and coaching people to create experiencers that will lead to coherent beliefs so that actions can be autonomous and coherent.
+
+[What we don't understand about trust](https://www.ted.com/talks/onora_o_neill_what_we_don_t_understand_about_trust)
+
+Trust is the response to the trustworthiness. We can control our trustworthiness but trust is given by others so it is not in control. We need to comminicate our trustworthiness to other people. We have to proivde evidence that you are trustworthy. We trust someone to do something. For example we trust a professor in teaching mathematics but maybe not in driving the school bus. Trustworthiness has three dimentsions: (1) competent, (2) honest, (3) reliable.
 
 ## UNDERSTANDING
 
