@@ -136,7 +136,7 @@ If we are not getting right results we need to change people's actions. But the 
 
 [What we don't understand about trust](https://www.ted.com/talks/onora_o_neill_what_we_don_t_understand_about_trust)
 
-Trust is the response to the trustworthiness. We can control our trustworthiness but trust is given by others so it is not in control. We need to comminicate our trustworthiness to other people. We have to proivde evidence that you are trustworthy. We trust someone to do something. For example we trust a professor in teaching mathematics but maybe not in driving the school bus. Trustworthiness has three dimentsions: (1) competent, (2) honest, (3) reliable.
+Trust is the response to trustworthiness. We can control our trustworthiness, but trust is given by others, so it is not in our control. We need to communicate our trustworthiness to other people. We have to provide evidence that we are trustworthy. We trust someone to do something. For example, we trust a professor in teaching mathematics but maybe not in driving the school bus. Trustworthiness has three dimensions: (1) competence, (2) honesty, and (3) reliability.
 
 ## UNDERSTANDING
 
