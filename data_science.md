@@ -155,10 +155,8 @@ For example, for n = 9, you should return 3 since the lists are: [2, 3, 4], [4, 
 > 33. Assume you want to test whether a new feature increases signups to the site.
 > How would you run this experiment? What statistical test(s) would you use?
 
-
-
-
-
+> 34. A and B are playing the following game: a number k from 1-6 is chosen, and A and B will toss a die until the first person sees the side k,
+> and that person gets $100. How much is A willing to pay to play first in this game?
 
 
 
