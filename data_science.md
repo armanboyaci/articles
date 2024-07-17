@@ -159,7 +159,8 @@ For example, for n = 9, you should return 3 since the lists are: [2, 3, 4], [4, 
 > and that person gets $100. How much is A willing to pay to play first in this game?
 
 
-
+> 35. Say we have two random variables X and Y. What does it mean for X and Y to be independent?
+> What about uncorrelated? Give an example where X and Y are uncorrelated but not independent.
 
 
 
