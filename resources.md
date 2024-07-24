@@ -93,6 +93,20 @@ We sometimes confuse abstraction and composition. Naming something by the pieces
 
 Just providing a system (for example a database) with sane defaults is not useful to the user. The platform team should bring a new language (closer the the business language) for the user.
 
+[Bottleneck #01: Tech Debt, Tim Cochran and Carl Nygard (2022)](https://martinfowler.com/articles/bottlenecks-of-scaleups/01-tech-debt.html)
+
+We use the term *tech debt* for different things: 
+1. Code quality
+2. Testing
+3. Coupling
+4. Unused or low value features
+5. Out of date libraries or frameworks
+6. Tooling
+7. Reliability and performance engineering problems
+8. Manual processes
+9. Automated deployments
+10. Knowledge sharing
+
 
 ## TEAM ORGANIZATION
 
