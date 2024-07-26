@@ -163,6 +163,18 @@ For example, for n = 9, you should return 3 since the lists are: [2, 3, 4], [4, 
 > What about uncorrelated? Give an example where X and Y are uncorrelated but not independent.
 
 
+> 36. You and your friend are playing a game. The two of you will continue to toss a coin until the sequence HH or TH shows up.
+> If HH shows up first, you win. If TH shows up first, your friend wins. What is the probability of you winning?
+
+> 37. Say you are tasked with producing a model that can recommend similar listings to an Airbnb user when they are looking at any given listing.
+> What kind of model would you use, what data is needed for that model, and how would you evaluate the model?
+
+> 38. In the streaming context, for A/B testing, what are some metrics and data to track, and what are some differences versus more traditional A/B testing?
+
+> 39. Given a list of positive integers, return the maximum increasing subsequence,
+> that is, the largest increasing subsequence within the array that has the maximum sum.
+> Examples: if the input is [5, 4, 3, 2, 1] then return 5 (since no subsequence is increasing), if the input is [3, 2, 5, 7, 6] return 15 = 3 + 5 + 7, etc.
+
 
 
 
