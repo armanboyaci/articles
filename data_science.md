@@ -175,6 +175,5 @@ For example, for n = 9, you should return 3 since the lists are: [2, 3, 4], [4, 
 > that is, the largest increasing subsequence within the array that has the maximum sum.
 > Examples: if the input is [5, 4, 3, 2, 1] then return 5 (since no subsequence is increasing), if the input is [3, 2, 5, 7, 6] return 15 = 3 + 5 + 7, etc.
 
-
-
+> 40. What are the assumptions behind linear regression? How do you diagnose if any of these assumptions are violated?
 
