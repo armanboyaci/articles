@@ -177,3 +177,24 @@ For example, for n = 9, you should return 3 since the lists are: [2, 3, 4], [4, 
 
 > 40. What are the assumptions behind linear regression? How do you diagnose if any of these assumptions are violated?
 
+> 41. Say we have X ~ Uniform(-1, 1) and Y = X^2. What is the covariance of X and Y?
+
+> 42. Facebook has a content team that labels pieces of content on the platform as spam or not spam.
+> 90% of them are diligent raters and will label 20% of the content as spam and 80% as non-spam.
+> The remaining 10% are non-diligent raters and will label 0% of the content as spam and 100% as non-spam.
+> Assume the pieces of content are labeled independently from one another, for every
+> rater. Given that a rater has labeled 4 pieces of content as good, what is the probability that they are a diligent rater? 
+
+> 43. Say you have an unfair coin which will land on heads 60% of the time. How many coin flips are needed to detect that the coin is unfair?
+
+> 44. Given a positive integer n, find the smallest number of perfect squares that sum up to n.
+> For example, for n = 7, you should return 4 since 7 = 4 + 1 + 1 +1, and for n = 13, you should return 2 since 13 = 4 + 9.
+
+> 45. Your team is trying to figure out whether a new driver app with extra UI features will increase the number of rides taken.
+> How would you test whether the extra features in the app make it better than the original version?
+
+> 46. Say we are running a probabilistic linear regression which does a good job modeling the underlying relationship between some y and x.
+> Now assume all inputs have some noise ε added, which is independent of the training data. What is the new objective function? How do you compute it?
+
+> 47. A fair die is rolled n times. What is the probability that the largest number rolled is r, for each r in 1..6?
+
