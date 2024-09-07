@@ -198,3 +198,55 @@ For example, for n = 9, you should return 3 since the lists are: [2, 3, 4], [4, 
 
 > 47. A fair die is rolled n times. What is the probability that the largest number rolled is r, for each r in 1..6?
 
+> 48. You have the entire social graph of Facebook users, with nodes representing users and edges representing friendships between users.
+> Given the edges of the graph and the number of nodes, write a function to return the smallest number of friendships in-between two users.
+> For example, if the graph consists of 5 users A, B, C, D, E, and the friendship edges are: (A, B), (A, C), (B, D), (D, E) then the function should return 2 for the input A and E.
+
+> 49. Assume you have the below tables on sessions that users have, and a users table.
+> Write a query to get the active user count of daily cohorts, i.e. the counts of users registered each day.
+
+##### sessions
+| column_name |	type |
+|---|---|
+| session_id	| integer |
+| user_id	| integer |
+| date |	datetime |
+
+##### users
+| column_name |	type |
+|---|---|
+| user_id	| integer |
+| email	| string |
+| date	| datetime |
+
+> 50. How would you build a model to calculate a customer's propensity to buy a particular item? What are some pros and cons of your approach?
+
+> 51. Let’s say that you are the first person working on the Facebook News Feed. What metrics would you track and how would you improve those metrics?
+
+> 52. Say you pick the radius of a circle from a uniform distribution between 0 and 1. What is the probability density of the area of the resulting circle?
+
+> 53. Given a binary tree, write a function to determine whether the tree is a mirror image of itself. Two trees are a mirror image if their root values are the same and the left subtree is a mirror image of the right subtree.
+
+> 54. There are two groups of n Snapchat users, A and B, and each user in A is friends with those in B and vice versa.
+> Each user in A will randomly choose a user in B as their best friend and each user in B will randomly choose a user in A as their best friend.
+> If two people have chosen each other, they are mutual best friends. What is the probability that there will be no mutual best friendships? 
+
+> 55. Say you model the lifetime for a set of customers using an exponential distribution with parameter λ,
+> and you have the lifetime history (in months) of n customers. What is the MLE for λ?
+
+> 56. Assume you are given the below tables on users and user posts. Write a query to get the distribution of the number of posts per user.
+
+#### users
+| column_name	| type |
+|---|---|
+| user_id	| integer |
+| date	| datetime | 
+
+#### posts
+
+| column_name	| type |
+|---|---|
+| post_id	 | integer | 
+| user_id	| integer | 
+| body	| string | 
+| date	| datetime | 
