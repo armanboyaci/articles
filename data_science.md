@@ -250,3 +250,13 @@ For example, for n = 9, you should return 3 since the lists are: [2, 3, 4], [4, 
 | user_id	| integer | 
 | body	| string | 
 | date	| datetime | 
+
+> 57. What is the loss function used in k-means clustering for k clusters and n sample points?
+> Compute the update formula using 1) batch gradient descent, 2) stochastic gradient descent for the cluster mean for cluster k using a learning rate ε.
+
+> 58. Dropbox has just started and there are two servers that service users: a faster server and a slower server.
+> When a user is on the website, they are routed to either server randomly,
+> and the wait time is exponentially distributed with two different parameters.
+> What is the probability density of a random user's waiting time?
+
+> 59. Estimate π using a Monte Carlo method. Hint: think about throwing darts on a square and seeing where they land within a circle.
