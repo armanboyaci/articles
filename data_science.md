@@ -260,3 +260,34 @@ For example, for n = 9, you should return 3 since the lists are: [2, 3, 4], [4, 
 > What is the probability density of a random user's waiting time?
 
 > 59. Estimate π using a Monte Carlo method. Hint: think about throwing darts on a square and seeing where they land within a circle.
+
+> 60. How would you improve product engagement on Twitter?
+
+> 61. Say you roll three dice, one by one. What is the probability that you obtain 3 numbers in a strictly increasing order?
+
+> 62. Say you draw n samples from a uniform distribution U(a, b). What is the MLE estimate of a and b?
+
+> 63. Given a stream of elements (of arbitrary size), write a class to find the median at any given time.
+> Your class should have a function to add numbers to the stream and a function to calculate the median.
+
+> 64. Assume you are given the below tables for the session activity of users.
+> Write a query to assign ranks to users by the total session duration for the different session types
+> they have had between a start date (2020-01-01) and an end date (2020-02-01).
+
+#### Sessions
+
+| column_name	| type |
+|---|---|
+| session_id	| integer  | 
+|user_id	    | integer  |
+|session_type	| string   |
+|duration	    | integer  |
+|start_time	  | datetime |
+
+> 65. Say you are deciding whether to implement two-step authentication when users log in. What data would you look at and how can you make your decision?
+
+> 66. Say you are given a random Bernoulli trial generator. How would you generate values from a standard normal distribution?
+
+> 67. What are MLE and MAP? What is the difference between the two?
+
+> 68. A and B are playing a game where A has n+1 coins, B has n coins, and they each flip all of their coins. What is the probability that A will have more heads than B?
