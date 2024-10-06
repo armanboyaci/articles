@@ -33,7 +33,7 @@ Designing a system to handle the edge cases of a client may punish other clients
 
 Customers don’t care about your solution but their problems. The challenge today isn’t building a product but uncovering the right product to build.
 
-[Dimensions Of Programming](https://www.youtube.com/watch?v=nEfMvR2OMcM)
+[Dimensions Of Programming, Peter Norvig (2012)](https://www.youtube.com/watch?v=nEfMvR2OMcM)
 
 In real world, software programs evolve over time. We can *plot* the evolution of a program through a multidimensional space: (1) correctness, (2) efficiency, (3) features, (4) elegance (clarity, simplicity and generality). We select a dimension and improve our program on that direction. 
 
