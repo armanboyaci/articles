@@ -4,6 +4,12 @@
 > You pick one at random, flip it 5 times, and observe that it comes up as tails all five times.
 > What is the chance that you are flipping the unfair coin?
 
+Let's apply log-likelihood ratio test. 
+$\ell \left( p=\frac{1}{2} \right) = 5 \log \frac{1}{2}$, 
+$\ell \left( p=\frac{p}{1-p} \right) = 5 \log \frac{p}{1-p}$.
+
+$\lambda = 5 \left( \log \frac{1}{2} -  \log \frac{p}{1-p} \right)$
+
 > 2. Assume we have a classifier that produces a score between 0 and 1 for the probability of a particular loan application being fraudulent.
 > In this scenario:
 > a) what are false positives, b) what are false negatives,
@@ -291,3 +297,41 @@ For example, for n = 9, you should return 3 since the lists are: [2, 3, 4], [4, 
 > 67. What are MLE and MAP? What is the difference between the two?
 
 > 68. A and B are playing a game where A has n+1 coins, B has n coins, and they each flip all of their coins. What is the probability that A will have more heads than B?
+
+> 69. A fair coin is tossed n times. Given that there were k heads in the n tosses, what is the probability that the first toss was heads?
+
+> 70. Say you have two countries of interest and want to compare variances of clicking behavior from users (i.e. total distribution of clicks).
+> How would you do this comparison, and what assumptions need to be met?
+
+> 71. Given an array A of positive integers, a peak element is defined as an element that is greater than its neighbors.
+> For example, if `A = [3, 5, 2, 4, 1]` you should return either 1 or 3 since index 1 is 5, and index 3 is 4, and both are peak elements. Find the index of any peak elements.
+
+> 72. You're working with several sensors that are designed to predict a particular energy consumption metric on a vehicle.
+> Using the outputs of the sensors, you build a linear regression model to make the prediction.
+> There are many sensors, and several of the sensors are prone to complete failure.
+> What are some cost functions you might consider, and which would you decide to minimize in this scenario?
+
+> 73. Assume you are given the below tables on users and their time spent on sending and opening Snaps.
+> Write a query to get the breakdown for each age breakdown of the percentage of time spent on sending versus opening snaps.
+
+#### activities
+
+| column_name	| type |
+|---|---|
+| activity_id |	integer |
+| user_id |	integer |
+| type |	string ("send", "open") |
+| time_spent |	float |
+| activity_date |	datetime |
+
+#### age_breakdown
+
+| column_name	| type |
+|---|---|
+| user_id	| integer |
+| age_bucket	| string |
+
+> 74. Let's say Facebook has expanded into a previously untapped geographical region.
+> Looking at weekly metrics, you see a slow decrease in the average number of comments per user over several months.
+> You also know that new users have been growing at a steady linear rate in the area for the same time frame.
+> What are some reasons why the average number of comments per user would be decreasing and what metrics would you look into?
