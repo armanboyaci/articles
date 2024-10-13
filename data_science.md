@@ -4,11 +4,7 @@
 > You pick one at random, flip it 5 times, and observe that it comes up as tails all five times.
 > What is the chance that you are flipping the unfair coin?
 
-Let's apply log-likelihood ratio test. 
-$\ell \left( p=\frac{1}{2} \right) = 5 \log \frac{1}{2}$, 
-$\ell \left( p=\frac{p}{1-p} \right) = 5 \log \frac{p}{1-p}$.
-
-$\lambda = 5 \left( \log \frac{1}{2} -  \log \frac{p}{1-p} \right)$
+https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q1_datascience.ipynb
 
 > 2. Assume we have a classifier that produces a score between 0 and 1 for the probability of a particular loan application being fraudulent.
 > In this scenario:
