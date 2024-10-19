@@ -11,13 +11,20 @@ https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q1_da
 > a) what are false positives, b) what are false negatives,
 > and c) what are the trade-offs between them in terms of dollars and how should the model be weighted accordingly?
 
+https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q2_datascience.ipynb
+
 > 3. How would you design a metric to compare rankings of lists of shows for a given user?
 
+https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q3_datascience.ipynb
+
 > 4. A coin was flipped 1000 times, and 550 times it showed up heads. Do you think the coin is biased? Why or why not?
+
+https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q4_datascience.ipynb
 
 > 5. Assume you take have a stick of length 1 and you break it uniformly at random into three parts.
 > What is the probability that the three parts form a triangle?
 
+https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q5_datascience.ipynb
 
 > 6. Assume you are given the below tables for trades and users.
 > Write a query to list the top 3 cities which had the highest number of completed orders.
@@ -41,6 +48,8 @@ https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q1_da
 | city	| string |
 | email	| string | 
 | signup_date |	datetime |
+
+https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q6_datascience.ipynb
 
 > 7. Assume we have some credit model, which has accurately calibrated (up to some error) score of how credit-worthy any individual person is.
 > For example, if the model’s estimate is 92% then we can assume the actual score is between 91 and 93.
@@ -331,3 +340,13 @@ For example, for n = 9, you should return 3 since the lists are: [2, 3, 4], [4, 
 > Looking at weekly metrics, you see a slow decrease in the average number of comments per user over several months.
 > You also know that new users have been growing at a steady linear rate in the area for the same time frame.
 > What are some reasons why the average number of comments per user would be decreasing and what metrics would you look into?
+
+> 75. Suppose we have two random variables X and Y. Under what condition are X+Y and X-Y uncorrelated?
+
+> 76. A biased coin, with probability p of landing on heads, is tossed n times.
+> Write a recurrence relation for the probability that the total number of heads after n tosses is even.
+
+> 77. Say that there are n topics on Twitter and there is a notion of topics being related.
+> Specifically, if topic A is related to topic B, and topic B is related to topic C, then topic A is indirectly related to topic C.
+> Define a topic group to be any group of topics that either directly or indirectly related.
+> Given an n by n adjacency matrix N, where N[i][j] = 1 if topic i and topic are j related and 0 otherwise, write a function to determine how many topic groups are there.
