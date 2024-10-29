@@ -98,6 +98,8 @@ https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q14_d
 > 15. How can you decide how long to run an experiment?
 > What are some problems with just using a fixed p-value threshold and how do you work around them?
 
+https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q15_datascience.ipynb
+
 > 16. What is user churn and how can you build a model to predict whether a user will churn?
 > What features would you include in the model and how do you assess importance?
 
