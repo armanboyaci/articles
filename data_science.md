@@ -60,6 +60,7 @@ https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q6_da
 > 8. What does it mean for an estimator to be unbiased?
 > What about consistent? Give examples of an unbiased but not consistent estimator, as well as a biased but consistent estimator.
 
+https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q8_datascience.ipynb
 
 > 9. Imagine the social graphs for both Facebook and Twitter.
 > How do they differ? What metric would you use to measure how skewed the social graphs are?
@@ -72,6 +73,7 @@ https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q6_da
 > 11. Given a number n, return the number of lists of consecutive positive integers that sum up to n.
 For example, for n = 9, you should return 3 since the lists are: [2, 3, 4], [4, 5], and [9]. Can you do it in linear time?
 
+https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q11_datascience.ipynb
 
 > 12. Assume you have the below tables on user actions. Write a query to get the active user retention by month.
 
@@ -83,6 +85,8 @@ For example, for n = 9, you should return 3 since the lists are: [2, 3, 4], [4, 
 
 
 > 13. Say we have X ~ Uniform(0, 1) and Y ~ Uniform(0, 1). What is the expected value of the minimum of X and Y?
+
+https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q13_datascience.ipynb
 
 > 14. Say we are given a list of several categories (for example, the strings: A, B, C, and D)
 > and want to sample from a list of such categories according to a particular weighting scheme.
@@ -350,3 +354,22 @@ For example, for n = 9, you should return 3 since the lists are: [2, 3, 4], [4, 
 > Specifically, if topic A is related to topic B, and topic B is related to topic C, then topic A is indirectly related to topic C.
 > Define a topic group to be any group of topics that either directly or indirectly related.
 > Given an n by n adjacency matrix N, where N[i][j] = 1 if topic i and topic are j related and 0 otherwise, write a function to determine how many topic groups are there.
+
+> 78. Assume you are given the below table on sessions from users, with a given start and end time. A session is concurrent with another session if they overlap in their start and end times. Write a query to output the session that is concurrent with the largest number of other sessions.
+
+#### sessions
+| column_name	| type |
+|---|---|
+| session_id	| integer |
+| user_id	| integer |
+| session_type	| string |
+| duration	| integer |
+| start_time	| datetime | 
+
+> 79. Let’s say that the usage of a Facebook posting tool dropped from 2% posts per user last month to 1% post per user today.
+> What might be some potential causes and how would you go about understanding this drop?
+
+> 80. Consider a Bernoulli random variable with parameter p. Say you observe the following samples: [1, 0, 1, 1, 1].
+> What is the log likelihood function for p and what is the MLE of p?
+
+> 81. What is Expectation-Maximization and when is it useful? Describe the setup algorithmically with formulas.
