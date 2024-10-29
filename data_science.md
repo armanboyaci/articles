@@ -93,6 +93,8 @@ https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q13_d
 > Such an example would be: for 100 items total, we want to see A 20% of the time, B 15% of the time, C 35% of the time, and D 30% of the time.
 > How do we simulate this? What if we care about an arbitrary number of categories and about memory usage?
 
+https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q14_datascience.ipynb
+
 > 15. How can you decide how long to run an experiment?
 > What are some problems with just using a fixed p-value threshold and how do you work around them?
 
