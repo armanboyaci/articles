@@ -378,3 +378,46 @@ https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q23_d
 > What is the log likelihood function for p and what is the MLE of p?
 
 > 81. What is Expectation-Maximization and when is it useful? Describe the setup algorithmically with formulas.
+
+> 82. Say that you are pushing a new feature X out. You have 1000 users and each user is either a fan or not a fan of X, at random.
+> There are 50 users out of 1000 that do not like X. You will decide whether to ship the feature or not, based on sampling 5 users independently
+> and if they all like the feature, you will ship it. What is the probability that you will ship the feature?
+
+> 83. Given n distinct integers, write a function to generate all permutations of those integers.
+
+> 84. Assume you are given the below table on purchases from users. Write a query to get the number of people that purchased at least one product on multiple days.
+
+#### purchases
+| column_name	| type |
+|---|---|
+| purchase_id	| integer |
+| user_id |	integer |
+| product_id |	integer |
+| quantity |	integer |
+| price	| float |
+| purchase_time	| datetime |
+
+> 85. A fair die is rolled n times. What is the expected value and the standard deviation of the smallest number rolled?
+
+> 86. Disney+ offers a 7-day free trial period. After 7 days, customers are charged whatever package they chose.
+> Assume that there are customers who commit to Disney+ right away and therefore don't end up having a 7-day free trial period.
+> Disney wants to measure the success of the free trial.
+> What metrics and analysis might you do to determine whether or not the free trial successfully acquires new customers?
+
+> 87. Alice and Bob are playing a new Facebook game together. They play a series of rounds until one of them wins two more rounds than the other.
+> With probability p, Alice will win each round. What is the probability that Bob wins the overall series?
+
+> 88. Assume you are given the below table on reviews from users. Define a top-rated place as a business whose reviews only consist of 4 or 5 stars. Write a query to get the number and percentage of businesses that are top-rated places.
+
+#### reviews
+| column_name	| type |
+|---|---|
+| business_id	| integer |
+| user_id	| integer |
+| review_text |	string |
+| review_stars |	integer |
+| review_date	| datetime |
+
+> 89. Say you have n integers 1...n and take a random permutation.
+> For any integers i, j let a swap be defined as when the integer i is in the jth position, and vice versa.
+> What is the expected value of the total number of swaps?
