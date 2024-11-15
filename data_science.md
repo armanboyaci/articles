@@ -168,6 +168,8 @@ https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q23_d
 
 > 31. Write a program to calculate correlation (without any libraries except for math) for two lists X and Y.
 
+https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q31_datascience.ipynb
+
 > 32. Say you are modeling the yearly revenue of new listings. What kinds of features would you use?
 > What data processing steps need to be taken, and what kind of model would run?
 
