@@ -107,6 +107,7 @@ https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q15_d
 > 17. You are drawing from a normally distributed random variable X ~ N(0, 1) once a day.
 > What is the approximate expected number of days until you get a value of more than 2?
 
+https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q17_datascience.ipynb
 
 > 18. Say you are given an unfair coin, with an unknown bias towards heads or tails.
 > How can you generate fair odds using this coin?
