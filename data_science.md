@@ -112,6 +112,7 @@ https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q17_d
 > 18. Say you are given an unfair coin, with an unknown bias towards heads or tails.
 > How can you generate fair odds using this coin?
 
+https://github.com/armanboyaci/notebooks/blob/master/datascience_questions%20/q18_datascience.ipynb
 
 > 19. What is the expected number of coin flips needed to get two consecutive heads?
 
