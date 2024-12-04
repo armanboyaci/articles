@@ -186,6 +186,7 @@ https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q31_d
 > 35. Say we have two random variables X and Y. What does it mean for X and Y to be independent?
 > What about uncorrelated? Give an example where X and Y are uncorrelated but not independent.
 
+https://colab.research.google.com/drive/10UcUx0nC7uxIN-00xVZCGj-RtpxRAf4y#scrollTo=7JLJpktB_5Wy
 
 > 36. You and your friend are playing a game. The two of you will continue to toss a coin until the sequence HH or TH shows up.
 > If HH shows up first, you win. If TH shows up first, your friend wins. What is the probability of you winning?
