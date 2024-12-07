@@ -426,3 +426,46 @@ https://colab.research.google.com/drive/10UcUx0nC7uxIN-00xVZCGj-RtpxRAf4y#scroll
 > 89. Say you have n integers 1...n and take a random permutation.
 > For any integers i, j let a swap be defined as when the integer i is in the jth position, and vice versa.
 > What is the expected value of the total number of swaps?
+
+> 90. Given two arrays, write a function to get the intersection of the two.
+> For example, if A = [2, 4, 1, 5, 0], and B = [3, 4, 5] then you should return [4, 5].
+
+> 91. Say we are using a Gaussian Mixture Model (GMM) for anomaly detection on fraudulent transactions to classify incoming transactions into K classes.
+> Describe the model setup formulaically and how to evaluate the posterior probabilities and log likelihood.
+> How can we determine if a new transaction should be deemed fraudulent?
+
+> 92. LinkedIn recently launched a "status" feature where you can now see if a LinkedIn connection is online,
+> symbolized by a green dot, idle, symbolized by an orange dot, or offline (grey dot) status that says how long ago the user was active.
+> Assume that this feature has been around for a few months. What metrics would you look at to assess the success of this feature?
+
+> 93. Suppose we have two random variables, X and Y, which are bivariate normal.
+> The correlation between them is -0.2. Let A = cX + Y and B = X + cY. For what values of c are A and B independent?
+
+> 94. If you are selling a product and want to decrease the shipment time from 2 days to 1 day to increase your amount of customers,
+> what are 2 ways to quantify it and 2 risks of this idea?
+
+> 95. You are analyzing the probability of failure or success of a small social media app competitor.
+> Using some initial data, you estimate that any step, if there is 1 user then after a day there is a 1/12 chance there will be 0 users,
+> 5/12 chance there will be 1 user, and 1/2 chance there will be 2 users.
+> Say the app starts with one user on day 1. What is the probability that the app will eventually have no users?
+
+> 96. Assume you are given the below table of measurement values from a sensor for several days.
+> Each measurement can happen several times in a given day.
+> Write a query to output the sum of values for every odd measurement and the sum of values for every even measurement by date.
+
+### measurements
+| column_name |	type |
+|---|---|
+| measurement_id	  | integer  |
+| measurement_value |	integer  | 
+| measurement_time  |	datetime |
+
+
+> 97. Given a number x, define a palindromic subset as any subsequence within x that is a palindrome.
+> Write a function that returns the number of digits of the longest palindromic subset.
+> For example, if x is 93567619 then you should return 5 since the longest subset would be 96769, which is a 5 digit number.
+
+> 98. Suppose there is a new vehicle launch upcoming.
+> Initial data suggests that any given day there is either a malfunction with some part of the vehicle or possibility of a crash,
+> with probability p which then requires a replacement. Additionally, each vehicle that has been around for n days must be replaced.
+> What is the long-term frequency of vehicle replacements?
