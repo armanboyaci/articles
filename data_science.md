@@ -116,6 +116,7 @@ https://github.com/armanboyaci/notebooks/blob/master/datascience_questions%20/q1
 
 > 19. What is the expected number of coin flips needed to get two consecutive heads?
 
+https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q19_datascience.ipynb
 
 > 20. You’re on the data science team and are responsible for figuring out surge pricing.
 > Why does it need to exist and what metrics and data should you track?
