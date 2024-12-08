@@ -102,6 +102,11 @@ To move towards the commitment phase, incremental deployment of a solution is a 
 
 It is critical to continually measure the benefits of the analytics. During solution discovery, define the metrics that can be measured that demonstrate success. During deployment, report on these measures.
 
+[The Value of Source Code](https://www.youtube.com/watch?v=Y6ZHV0RH0fQ)
+
+Writing new code is usually faster than understanding and modifying existing code. Production view vs theory building view. In production view the output is the code, in theory building view the real output is the map between the real-world and the code. The code and its documentation has proved insufficient as a carrier of some of the most important design ideas. So much value is tied up in individual contributor. Companies shouldn't treat software developers as replaceable cogs in a machine their domain knowledge acquired over the years cannot be easily repleaced.
+
+
 ## CODE ORGANIZATION
 
 [The Clean Architecture, Uncle Bob (2012)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
