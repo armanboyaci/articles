@@ -55,6 +55,9 @@ Software projects rarely fail because they are too small; they fail because they
 
 Small teams of the best engineers can often build things faster than even very large teams of average engineers. In large projects, bad engineers end up creating more work for one another, as errors and poor design choices snowball to create massive issues
 
+[The Value of Source Code (2024)](https://www.youtube.com/watch?v=Y6ZHV0RH0fQ)
+
+Writing new code is usually faster than understanding and modifying existing code. Production view vs theory building view. In production view the output is the code, in theory building view the real output is the map between the real-world and the code. The code and its documentation has proved insufficient as a carrier of some of the most important design ideas. So much value is tied up in individual contributor. Companies shouldn't treat software developers as replaceable cogs in a machine their domain knowledge acquired over the years cannot be easily repleaced.
 
 ## DATA SCIENCE
 
@@ -101,11 +104,6 @@ This will allow users to get comfortable with a new system.
 To move towards the commitment phase, incremental deployment of a solution is a best practice. Increase the scope across appropriate business dimensions: start with a single product, single business unit, and/or a single geography; then expand the scope incrementally.
 
 It is critical to continually measure the benefits of the analytics. During solution discovery, define the metrics that can be measured that demonstrate success. During deployment, report on these measures.
-
-[The Value of Source Code](https://www.youtube.com/watch?v=Y6ZHV0RH0fQ)
-
-Writing new code is usually faster than understanding and modifying existing code. Production view vs theory building view. In production view the output is the code, in theory building view the real output is the map between the real-world and the code. The code and its documentation has proved insufficient as a carrier of some of the most important design ideas. So much value is tied up in individual contributor. Companies shouldn't treat software developers as replaceable cogs in a machine their domain knowledge acquired over the years cannot be easily repleaced.
-
 
 ## CODE ORGANIZATION
 
