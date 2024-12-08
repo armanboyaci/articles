@@ -43,6 +43,19 @@ Changing the elegance will not improve correctness/efficientcy/features. It is f
 
 Do not spend too much time for perfection. Sometimes it would be much valuable to spend time to improve efficiency of the program instead of chasing 100% correctness. A good engineer makes good trade-offs. Which direction do I need to move, or am I done?
 
+[How to Build Good Software (2019)](https://knowledge.csc.gov.sg/ethos-issue-21/how-to-build-good-software/)
+
+The main value in software is not the code produced, but the knowledge accumulated by the people who produced it. 
+
+IT systems are often full of features but are still hated by users because of how confusing they become. In contrast, highly ranked mobile apps tend to be lauded for their simplicity and intuitiveness. Building good software involves alternating cycles of expanding and reducing complexity. 
+
+As new features are developed, disorder naturally accumulates in the system. When this messiness starts to cause problems, progress is suspended to spend time cleaning up. Software should be treated not as a static product, but as a living manifestation of the development team’s collective understanding. 
+
+Software projects rarely fail because they are too small; they fail because they get too big. Unfortunately, keeping a project focused is very hard in practice: just gathering the requirements from all stakeholders already creates a huge list of features.
+
+Small teams of the best engineers can often build things faster than even very large teams of average engineers. In large projects, bad engineers end up creating more work for one another, as errors and poor design choices snowball to create massive issues
+
+
 ## DATA SCIENCE
 
 [Tukey Design Thinking and Better Questions, Roger Peng (2019)](https://web.archive.org/web/20190418141631/https://simplystatistics.org/2019/04/17/tukey-design-thinking-and-better-questions/)
@@ -66,6 +79,28 @@ This itself can be part of a small concrete expectation setting project.
 To complete the expectation setting project we need reusable methods to set useful, realistic goals that really measure if a data science project is on track. 
 An initial research project to quantify what sort of outcome is even possible and if such an outcome would make sense for the business. 
 
+[Change Management for Advanced Analytics Projects (2017)](https://www.princetonoptimization.com/blog/blog/change-management-advanced-analytics-projects)
+
+We can classify analytics projects into one of three buckets:
+1. A one-time analysis leading to a strategic decision
+2. Analytics that are used to drive repeated decisions with humans in the loop
+3. Analytics that are deeply embedded in automated process.
+
+Collect answers to questions such as:
+1. The problem statement and usability requirements: What is the current situation? What is your vision of the ideal situation? What actions would help to bridge the gap? How will success be measured? Is there a baseline measure available today that can be used for comparison? What is the cost of doing nothing?
+2. Identify the stakeholders: Who are the users of a potential solution? Who inside and outside the organization will be impacted by the potential solution? Which people from different parts of the organization need to be involved in the construction of a potential solution? These could be end users, IT executives, database architects, and user interface designers. What business processes will be affected by the potential solution, and how?
+3. Obtain stakeholder agreement on the problem statement. Without agreement at the beginning from all of the various stakeholders as to the problem being addressed, there will be challenges in moving to the acceptance and commitment phases of the change management process.
+
+It is better to tell users, “The system will help you make decisions faster” instead of “The system will make better decisions for you.”
+
+For systems where users will interact with the recommendations made by analytics, create controls that allow users to override those recommendations. Over time, users will trust the system’s recommendations. Make sure to build the system to log these overrides, as that data can indicate how to improve the system.
+
+Create a Graphical User Interface (GUI) of the current process, with connections to data and illustrations of current decisions. 
+This will allow users to get comfortable with a new system.
+
+To move towards the commitment phase, incremental deployment of a solution is a best practice. Increase the scope across appropriate business dimensions: start with a single product, single business unit, and/or a single geography; then expand the scope incrementally.
+
+It is critical to continually measure the benefits of the analytics. During solution discovery, define the metrics that can be measured that demonstrate success. During deployment, report on these measures.
 
 ## CODE ORGANIZATION
 
