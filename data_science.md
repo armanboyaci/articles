@@ -126,6 +126,7 @@ https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q19_d
 > In the second game, you roll one die and get the dollar amount equivalent to the square of that value.
 > Which has the higher expected value and why?
 
+https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q21_datascience.ipynb
 
 > 22. Say you are given a very large corpus of words. How would you identify synonyms?
 
