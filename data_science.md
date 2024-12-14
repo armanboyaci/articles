@@ -159,6 +159,8 @@ https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q23_d
 
 > 29. How many cards would you expect to draw from a standard deck before seeing the first ace?
 
+https://github.com/armanboyaci/notebooks/blob/master/datascience_questions/q29_datascience.ipynb
+
 > 30. Assume you are given the below table for spending activity by product type.
 > Write a query to calculate the cumulative spend for each product over time in chronological order.
 
