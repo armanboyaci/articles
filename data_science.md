@@ -473,3 +473,51 @@ https://colab.research.google.com/drive/10UcUx0nC7uxIN-00xVZCGj-RtpxRAf4y#scroll
 > Initial data suggests that any given day there is either a malfunction with some part of the vehicle or possibility of a crash,
 > with probability p which then requires a replacement. Additionally, each vehicle that has been around for n days must be replaced.
 > What is the long-term frequency of vehicle replacements?
+
+> 99. Explain what Information Gain and Entropy are in a Decision Tree.
+
+> 100. Say you have a large amount of user data that measures the lifetime of each user.
+> Assume you model each lifetime as exponentially distributed random variables.
+> What is the likelihood ratio for assessing two potential λ values, one from the null hypothesis and the other from the alternative hypothesis?
+
+> 101. You are a data scientist who works directly with the CEO. Your boss says she is incredibly ecstatic because the average cost of acquiring a customer is a lot
+> lower than the expected value of a customer. She thinks that the acquisition cost has been minimized and the value of a customer has almost been maximized.
+> Help her interpret the metric and give a suggestion about how she should use it to try and maximize revenue.
+
+> 102. Given a string with lowercase characters and left and right parentheses, remove the minimum number of parentheses so that the string is valid.
+> For example, if the string is ")a(b((cd)e(f)g)" then return "ab((cd)e(f)g)".
+
+> 103. Describe the idea and mathematical formulation of kernel smoothing. How do you compute the kernel regression estimator?
+
+> 104. What are some metrics you would use to measure user engagement at Slack? How would you be able to tell early whether or not user engagement is declining?
+
+> 105. Alice and Bob are choosing their top 3 shows from a list of 50 shows. Assume that they choose independently of one another.
+> Being relatively new to Hulu, assume also that they choose randomly within the 50 shows.
+> What is the expected number of shows they have in common, and what is the probability that they do not have any shows in common?
+
+> 106. Assume you are given the below table on transactions from various product search results from users on Etsy.
+> For every given product keyword, there are multiple positions that being A/B > tested, and user feedback is collected on the relevance of results (from 1-5).
+> There are many displays for each position of every product, each of which is captured by a display_id.
+> Define a highly relevant display as one whereby the corresponding relevance score is at least 4.
+> Write a query to get all products having at least one position with > 80% highly relevant displays.
+
+### product_searches
+| column_name |	type |
+|---|---|
+| product	| string |
+| position |	integer |
+| display_id |	integer |
+| relevance |	integer |
+| submit_time |	datetime |
+
+> 107. Say that the lifetime of electric vehicles are modeled using a Gaussian distribution.
+> Each type of electric vehicle has an expected lifetime and a lifetime variance.
+> Say you chose two different types of electric vehicles at random. What is the probability that the two lifetimes will be within n time units?
+
+> 108. Given an arbitrary array of positive integers, find the smallest missing positive integer. Can you do it with O(1) space?
+> For example, if A = [1, 3, 6, 2, 7] and then you should return 4.
+
+> 109. Say you roll three dice and observe the sum of the three rolls. What is the probability that the sum of the outcomes is 12, given that the three rolls are different?
+
+> 110. Say we have N observations for some variable which we model as being drawn from a Gaussian distribution.
+> What are your best guesses for the parameters of the distribution? Derive it mathematically.
