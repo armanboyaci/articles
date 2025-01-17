@@ -105,6 +105,27 @@ To move towards the commitment phase, incremental deployment of a solution is a 
 
 It is critical to continually measure the benefits of the analytics. During solution discovery, define the metrics that can be measured that demonstrate success. During deployment, report on these measures.
 
+
+[Be prepared to show your working!, David Spiegelhalter (2019)](https://www.youtube.com/watch?v=E12_F4xeOHw)
+
+The users of an AI system should expect trustworty claims: (1) by the system, (2) about the system by the company/devs. Variaty of audiences and purposes for explainability/interpretability.
+
+A structure for evaluation:
+- Phase 1. Digital testing: performance
+- Phase 2. Lab testing: user testing
+- Phase 3. Field testing: controlled trials of impact (randomized roll-out)
+- Phase 4. Routine use: monitoring
+
+Intelligent Openness of information/claims: accessible, intelligable (easy to understand), useable, assessable.
+Principles for Accountable Algorithms: Accuracy, Explainability, Impact
+
+(Local) Explailability:
+- What drove the conclusion? What was the chain of reasoning
+- What-if inputs had been different? Counterfactuals
+- How confident is the conclusion?
+- Is the current situation withi its competence?
+
+
 ## CODE ORGANIZATION
 
 [The Clean Architecture, Uncle Bob (2012)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
