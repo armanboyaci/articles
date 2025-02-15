@@ -523,3 +523,50 @@ https://colab.research.google.com/drive/10UcUx0nC7uxIN-00xVZCGj-RtpxRAf4y#scroll
 
 > 110. Say we have N observations for some variable which we model as being drawn from a Gaussian distribution.
 > What are your best guesses for the parameters of the distribution? Derive it mathematically.
+
+> 111. Say you are on the UberEats team and considering shipping out a potential feature X. What metrics would you look at in order to A/B test this change?
+
+> 112. Suppose you roll a fair die n times, where n is very large. What is the average time between occurrences of a given number?
+
+> 113. You are given an m by n matrix with with 0s and 1s, where a 1 represents an obstacle and a 0 represents no obstacle.
+> Determine the number of ways to navigate from the top-left corner of the matrix to the bottom right corner given that at any point in
+> time there is only a move down or to the right as long as there is not an obstacle in that spot.
+> For example, if the matrix is given by: [[0, 0, 0], [1, 1, 0], [0, 1, 0]] then you should return 1 since there is exactly one path.
+
+> 114. Say X and Y are independent and uniformly distributed on (0, 1). What is the expected value of X, given that X > Y?
+
+> 115. You are testing a new feature with various sample groups of three people.
+> Assume that each person is equally likely to be a fan or not a fan of the feature.
+> What is the probability that a randomly chosen group has exactly one fan, given that there is a fan among the three?
+
+> 116. Given an array A of positive integers and an integer k, write a function to get the largest value within the sliding window of size k for A.
+> Each sliding window is k numbers and moves from the leftmost to the rightmost within A, one position at a time.
+> For example, if A = [2, 5, 3, 1, 4] and n = 2, then you should return [5, 5, 3, 4].
+
+> 117. Uber Pro is a program that is designed to reward outstanding drivers. Think of it like a reward program on the driver side.
+> What do you think are the important metrics for Uber Pro to look at, and how might Uber be able to tell if the service is effective?
+
+> 118. Suppose you are running a linear regression and model the error terms as being normally distributed.
+> Show that in this setup, maximizing the likelihood of the data is equivalent to minimizing the sum of squared residuals.
+
+> 119. Given two sorted arrays of positive integers, and an integer k, determine the k smallest pairs among the two arrays,
+> where a pair is defined as having exactly one element from the first array and one element from the second array.
+> For example, if the k = 3 and the two arrays are [1, 3, 6, 10] and [2, 5, 7, 9] then [[1, 2], [3, 2], [1, 5]] since those are the three smallest pairs.
+
+> 120. Derive the expectation for a geometric distributed random variable.
+
+> 121. You are modeling the wait time a customer has for a support call as exponentially distributed with a mean of 10 minutes.
+> Suppose a customer calls in and is told that all lines are currently busy, and the most recent last spot was occupied 5 minutes ago.
+> What is the probability that the current customer will need to wait no more than another 5 minutes?
+
+> 122. Given a string, return the count of substrings within the string that are palindromes.
+> For example, if input is "aba": return 4, since the palindromes are: "a", "b", "a", and "aba".
+
+> 123. Say you roll a fair dice 5 times. Let X be the number of times a 2 was rolled, and Y the number of times a 3 was rolled.
+> What is the correlation coefficient between X and Y?
+
+> 124. How would you measure Duolingo's success from a product standpoint,
+> and another metric you would use to measure its success from a financial standpoint?
+
+> 125. Describe the model formulation behind logistic regression. How do you maximize the log-likelihood of a given model (using the two-class case)?
+
