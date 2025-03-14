@@ -180,6 +180,21 @@ We use the term *tech debt* for different things:
 
 ## TEAM ORGANIZATION
 
+[Steve Jobs on Consulting, Steve Jobs](https://www.youtube.com/watch?v=-c4CNB80SRc)
+Making recommendations without owning the implementation and results captures only a fraction of the value of the opportunity to learn the business. Without the experience of actually doing it, you never truly understand it.
+
+[Managers, Marketing, and Continuous Process Improvement, Steve Jobs](https://www.youtube.com/watch?v=rQKis2Cfpeo)
+The great people are self-managing, they don't need to be managed. Once they know what to do, they will figure out how to do it. What they need is a common vision. And that is leadership. If you are great person, why do you want to work for somebody that you can't learn anything from. 
+
+[Essense of Product Management, Steve Jobs](https://www.youtube.com/watch?v=XmRNIGqzuRI)
+Designing a product is to choose what to emphesize and what to remove it. Different companies are making different choices and market decides who is right at the end. The customers are paying us to make those choices.
+
+[Managing Peoplei Steve Jobs](https://www.youtube.com/watch?v=f60dheI4ARg)
+You need to be great at divide things up, to have great teams, touch bases frequently.
+
+[Great idea doesn't always translates into great product, Steve Jobs](https://www.youtube.com/watch?v=Qdplq4cj76I)
+Thinking that having an idea is 90% of the work is a mistake. There is a great deal of craftsmanship between a great idea and a great product. The final product never fully resembles the initial idea because you learn so much throughout the process of making it. A group of talented people refines and builds upon each other's ideas, resulting in a beautiful product.
+
 [Team Interaction Modeling with Team Topologies (2023)](https://teamtopologies.com/key-concepts-content/team-interaction-modeling-with-team-topologies)
 
 The team is the smallest entity of delivery within an organization and should be a stable group of 5 to 9 people working towards a shared goal as a unit. 
