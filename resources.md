@@ -8,9 +8,13 @@ Therefore the most important function that software builders do for their client
 
 Great design comes from great designers. Software construction is a creative process. [...] very best designers produce structures that are faster, smaller, simpler, cleaner, and produced with less effort. The differences between the great and average approach an order of magnitude.
 
-[The Feature Creep](https://vivianvoss.net/blog/the-feature-creep)
+[The Feature Creep, Vivian Voss (2026)](https://vivianvoss.net/blog/the-feature-creep)
 
 The best software is not the one with the most features. It is the one that never added the wrong ones.
+
+[Engineering Efficiency vs Engineering Experience, Mike Fisher (2024)](https://mikefisher.substack.com/p/engineering-efficiency-vs-engineering)
+
+Developers are more than code generators; they are problem-solvers, thinkers, and innovators. If the workplace frustrates them with innefficient tools, unncessessary bureaucrasy, or lack of direction, their productivity and creativity suffer.
 
 [Hammock Driven Development, Hickey Rich (2010)](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/HammockDrivenDev-mostly-text.md)
 
